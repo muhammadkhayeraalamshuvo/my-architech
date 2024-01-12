@@ -28,17 +28,18 @@ header
 {
     background: rgba(255, 144, 14, 0.10);
     padding: 20px 150px; /*p-hero -->50px 240px*/
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    margin-bottom: 20px;
 }
 nav
 {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 nav>ul{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -69,7 +70,7 @@ nav ul li a
 .banner-content
 {
     max-width: 70%;
-    border: 2px solid slateblue;
+    /* border: 2px solid slateblue; */
     margin: 0 auto 40px;
     text-align: center;
     
@@ -87,6 +88,70 @@ nav ul li a
 
 .banner img{
     width: 100%;
+}
+/* header end */
+/* main parts here */
+/* feature-section */
+.feature-section
+{
+    padding: 20px 200px;
+    
+    /* border: 2px solid orchid; */
+}
+.feature-content
+{
+    /* border: 2px solid saddlebrown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+.img-feature
+{
+    /* border: 2px solid firebrick; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    width: 48%;
+}
+.img-feature img
+{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.about-feature
+{
+    /* border: 2px solid gray; */
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.about-f-title
+{
+    color: var(--Dark-03, #727272);
+font-size: 1.9rem;
+font-weight: 500;
+}
+/* span tag */
+#of-our,#f
+{
+  font-weight: 700;
+  color: black;
+}
+#f
+{
+    color: #FF900E;
+    
+}
+.about-feature p
+{
+    color: var(--Dark-03, #727272);
 }
 
 @media screen and (max-width:931px) {
@@ -131,4 +196,32 @@ nav ul li a
         font-size: 1rem;
         font-weight: 600;
     }
+/* header end */
+/* feature section */
+.feature-section{
+    padding: 0px 50px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+.feature-content
+{
+    flex-direction: column;
+}
+.img-feature
+{
+    width: 100%;
+    gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+   
+}
+.img-feature img{
+     height: 220px; 
+    object-fit: none;
+}
+.about-feature
+{
+    width: 100%;
+}
 }
