@@ -21,6 +21,14 @@
     border-style: none;
     cursor:pointer;
 }
+.section-title
+{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+/* shared styles end here */
 
 /* header styles */
 
@@ -46,12 +54,6 @@ nav>ul{
     /* padding: 0px 50px; */
     /* gap: 20px; */ /*i prefer this */
     
-}
-.nav-title
-{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #131313;
 }
 nav ul li 
 {
@@ -149,10 +151,66 @@ font-weight: 500;
     color: #FF900E;
     
 }
-.about-feature p
+.gray-description
 {
     color: var(--Dark-03, #727272);
 }
+
+/* about-section */
+.about-section
+{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.about-description
+{
+    padding-right: 120px;
+    /* border: 2px solid green; */
+}
+.about-img
+{ 
+    /* border: 2px solid red; */
+    width: 150%;
+
+}
+.about-img img{
+    width: 100%;
+    /* height: 100%; */
+}
+.extra
+{
+    width: 100px;
+    /* border: 2px solid orchid; */
+    padding: 20px 40px;
+    text-align: center;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+    bottom: 84px;
+    right: 53px;
+}
+.extra h2{
+   color: white;
+   font-size: 2rem;
+   margin: 0px 0px;
+}
+.extra p
+{
+    color: white;
+    margin:5px 0px 3px 0px;
+}
+
+/* fact-section */
+.fact-section{
+    padding: 20px 150px;
+    
+}
+
 
 @media screen and (max-width:931px) {
     .banner{
@@ -224,4 +282,30 @@ font-weight: 500;
 {
     width: 100%;
 }
+
+/* about-section*/
+.about-section{
+    padding: 0px 0px;
+    flex-direction: column;
+    margin: 0px 0px;
+}
+.about-description{
+   padding: 0px 0px;
+}
+.about-img{
+
+}
+.about-img img{
+   width: 350px;
+   padding-left:7px;
+   /* height: 100%; */
+}
+.extra
+{
+   bottom: 54px;
+   right: -9px;
+   
+}
+
+
 }
