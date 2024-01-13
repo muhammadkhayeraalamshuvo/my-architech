@@ -233,6 +233,10 @@ font-weight: 500;
 {
     margin-top: 0px;
 }
+/* .hide
+{
+    display:none;
+} */
 
 @media screen and (max-width:931px) {
     .banner{
@@ -315,7 +319,7 @@ font-weight: 500;
    padding: 0px 0px;
 }
 .about-img{
-
+   width: 100%;
 }
 .about-img img{
    width: 350px;
@@ -333,11 +337,22 @@ font-weight: 500;
  .fact-section
  {
     padding: 0px 0px;
+    /* border: 2px solid greenyellow; */
+    margin-top: 10px 0px;
  }
  .icon-section
  {
-    flex-wrap: wrap;
-    border: 2px solid red;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    gap: 10px;
  }
+ .card
+ {
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+
+ }
+
 
 }
