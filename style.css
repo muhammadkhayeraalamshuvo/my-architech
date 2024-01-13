@@ -210,7 +210,29 @@ font-weight: 500;
     padding: 20px 150px;
     
 }
-
+.icon-section
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.card
+{
+    border-radius: 8px;
+    border: 1px solid #FF900E; 
+    text-align: center;
+    padding: 25px;
+    
+}
+.card h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.card p
+{
+    margin-top: 0px;
+}
 
 @media screen and (max-width:931px) {
     .banner{
@@ -307,5 +329,15 @@ font-weight: 500;
    
 }
 
+/* facts section  */
+ .fact-section
+ {
+    padding: 0px 0px;
+ }
+ .icon-section
+ {
+    flex-wrap: wrap;
+    border: 2px solid red;
+ }
 
 }
