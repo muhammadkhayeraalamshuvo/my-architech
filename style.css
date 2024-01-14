@@ -233,6 +233,36 @@ font-weight: 500;
 {
     margin-top: 0px;
 }
+
+/* sponspor section starts here */
+
+.sponspor-section
+{
+    padding: 20px 150px;
+    text-align: center;
+}
+.sponspor-section p
+{
+    width: 50%;
+    margin: auto;
+
+}
+
+.sponspor
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+.sponspor img
+{
+    width: 130px;
+    
+}
+
+
 /* .hide
 {
     display:none;
@@ -351,7 +381,28 @@ font-weight: 500;
     padding: 20px;
     width: 50%;
     margin: auto;
+ }
 
+ /* sponspor section */
+
+ .sponspor-section
+ {
+    padding: 0px 0px;
+ }
+ .sponspor-section p
+ {
+    margin: 0px 0px;
+    width: 100%;
+ }
+ .sponspor{
+    margin-top: 40px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ .sponspor img 
+ {
+    width: 100px;
  }
 
 
